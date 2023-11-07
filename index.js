@@ -1,11 +1,10 @@
-function soma() {
-    console.log(10 + 5);
-} 
+// function soma(valor1, valor2) {
+//     console.log('executou', valor1, valor2);
+//     let resultado = valor1 + valor2;
 
-function myFunction(){
-    console.log('olá mundo');
-    soma();
-}
+//     return resultado;
+// } 
 
+let soma = (valor1, valor2) => valor1 + valor2;
 
-myFunction();
+console.log(soma(150, 50));
