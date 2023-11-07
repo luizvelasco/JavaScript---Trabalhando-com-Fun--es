@@ -1,10 +1,18 @@
-// function soma(valor1, valor2) {
-//     console.log('executou', valor1, valor2);
-//     let resultado = valor1 + valor2;
+let nome = 'Ariel';
 
-//     return resultado;
-// } 
+function addNome() {
+    nome = 'Carlos';
+    console.log(nome);
 
-let soma = (valor1, valor2) => valor1 + valor2;
+    function novoNome(){
+        nome = 'Daniel';
+        console.log(nome);
+    }
 
-console.log(soma(150, 50));
+    novoNome();
+
+} 
+
+addNome();
+
+console.log(nome);
