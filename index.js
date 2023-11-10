@@ -1,18 +1,9 @@
-let nome = 'Ariel';
-
-function addNome() {
-    nome = 'Carlos';
-    console.log(nome);
-
-    function novoNome(){
-        nome = 'Daniel';
-        console.log(nome);
+function multiplicador(numero) {
+    let resp;
+    for (let i = 1; i <= 10; i++) {
+        resp = i * numero;
+        console.log(`${i} x ${numero} = ${resp}`);
     }
+}
 
-    novoNome();
-
-} 
-
-addNome();
-
-console.log(nome);
+multiplicador(4);
